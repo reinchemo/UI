@@ -1,0 +1,593 @@
+<!--/////////////////////////////////
+ / article:User interface home page//                                                    
+ / author: Reinhard kiprop//////////      
+ / date:   16-10-2022///////////////
+ / licence:MIT///////////////////////                        
+ / /////////////////////////////////-->
+
+
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/reboot.css">
+
+    <title>GAE</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div class="sticky-top bg-white p-2 shadow" style="--bs-bg-opacity: 0.95">
+        <nav class="navbar navbar-expand-lg navbar-light container">
+            <div class="container-fluid">
+
+
+                <img src="https://gearbox.ke/eu/assets/img/gearbox_logo_plain.png" height="50" width="50 "> &nbsp;&nbsp;<a class="navbar-brand fs-4" href="#">GAE Cohort 6</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#navbarFeatures">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#navbarBlog">Blog</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#navbarContact">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex justify-content-lg-end" style="width: 185px;">
+                        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#getStartedModal">
+              Get Started
+            </button> -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="getStartedModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Get Started Now!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="contactEmail" class="form-label"> Enter Your Email For Newletter </label>
+                            <input type="email" class="form-control" id="contactEmail" placeholder="name@example.com">
+                        </div>
+                        <button class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- back to top -->
+    <a href="#" class="bg-warning text-dark d-flex rounded-circle justify-content-center align-items-center position-fixed opacity-75" style="width: 54px; height: 54px; right: 10px; bottom: 10px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+
+
+
+      <path fill-rule="evenodd"
+        d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+    </svg>
+    </a>
+
+    <!-- header -->
+    <div class="py-4">
+        <header class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="display-4 mb-4">Door <span class="text-warning">and </span> light Automation</h2>
+                    <p class="lead text-muted mb-4">This project aims to solve company and home security since unauthorized access is denied and also helps to maintain order within an organisation.</p>
+                    <div class="text-center text-md-start">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#getStartedModal">
+              Get Started
+            </button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://www.led-professional.com/resources-1/articles/lighting-building-automation-technologies-by-leviton-manufacturing/@@images/7facbfdd-627b-4c09-9d34-0f3740592906.png" class="img-fluid">
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- Features -->
+    <div class="py-4 bg-primary" id="navbarFeatures">
+
+        <section class="container">
+
+            <h2 class="text-center display-5 mt-5">Features</h2>
+
+
+            <p class="lead text-muted mb-5 pb-3 text-center">We are divided into a team of six one can choose which field to major in however its unlimited as one can do both because its interactive and open hence one can perfect or learn something new
+            </p>
+
+            <div class="row gy-4 pb-5">
+                <div class="col-md-6 col-xl-4">
+                    <div class="card p-5">
+                        <div class="card-body text-center">
+
+                            <svg class="text-primary" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 0 16 16">
+
+
+    
+                <!-- <path
+                  d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0zm-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3h-7zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z">
+                </path> -->
+              </svg>
+                            <path>
+                                <img src="https://www.iberdrola.com/documents/20125/40921/machine_learning_746x419.jpg/15ff7571-4cfc-d9f0-5ef4-9c2e9306ad88?t=1627968463400" alt="Girl in a jacket" class="center" width="150" height="150"><br>
+
+                            </path>
+                            <h5 class="card-title mt-4">Machine learning</h5>
+
+                            <p class="card-text text-muted lead">This team focuses on implementing a facial recognition system
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="card p-5">
+                        <div class="card-body text-center">
+                            <svg class="text-primary" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 0 16 16">
+                
+
+                <img src="https://damassets.autodesk.net/content/dam/autodesk/www/industry/manufacturing/building-products-fabrication/connecting-design-fabrication-thumb-858x483.jpg" alt="Girl in a jacket" class="center" width="150" height="150"><br>
+              </svg>
+                            <h5 class="card-title mt-4">Design and fabrication</h5>
+                            <p class="card-text text-muted lead">Working on the power unit supply and how/where  sensors will be placed .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="card p-5">
+                        <div class="card-body text-center">
+                            <svg class="text-primary" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 0 16 16">
+
+
+                                <img src="https://createdigital.org.au/wp-content/uploads/2017/12/robotics-technology.jpg" alt="Girl in a jacket" class="center" width="150" height="150"><br>
+              </svg>
+                            <h5 class="card-title mt-4">Robotics</h5>
+                            <p class="card-text text-muted lead">Focuses on building a robot that makes practical sense to the Kenyan market
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="card p-5">
+                        <div class="card-body text-center">
+                            <svg class="text-primary" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 0 16 16">
+                                <img src="https://dmlab.edu.gr/assets/media/2019/09/Web_Development.png" alt="Girl in a jacket" class="center" width="150" height="150"><br>
+              </svg>
+                            <h5 class="card-title mt-4">Web systems</h5>
+                            <p class="card-text text-muted lead">Making a web application that documents the current government cabinet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="card p-5">
+                        <div class="card-body text-center">
+                            <svg class="text-primary" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 0 16 16">
+
+                                <img src="https://igzy.com/wp-content/uploads/2020/08/iot-platform.jpg" alt="Girl in a jacket" class="center" width="150" height="150"><br>
+              </svg>
+                            <h5 class="card-title mt-4">Cloud and Iot</h5>
+                            <p class="card-text text-muted lead">Automating cabinets and designing UI and database for the project
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="card p-5">
+                        <div class="card-body text-center">
+                            <svg class="text-primary" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 0 16 16">
+                                <img src="https://careerchoice360.com/images/me.jpg" alt="Girl in a jacket" class="center" width="150" height="150"><br>
+              </svg>
+                            <h5 class="card-title mt-4">Mechanical and Electrical</h5>
+                            <p class="card-text text-muted lead">Designing our own arduino board and Mechanical structure using autodesk.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- vuejs -->
+    <div class="py-4">
+        <section class="container">
+            <div class="row align-items-center" style="height: 450px">
+                <div class="col-md-6">
+                    <h2 class="display-4 mb-4"> we are <span style="color: #4dba87;">Commited</span> and <span style="color: #4dba87;">interactive</span></h2>
+                    <p class="lead text-muted mb-4">Since we come from different universities we exchange ideas and come up with the end product that is flexible with the current technology.</p>
+                    <div class="text-center text-md-start">
+
+                        <!-- <a href="#" class="btn btn-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+              </svg> Read more
+                        </a> -->
+
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/vue.svg" class="img-fluid">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- reactjs -->
+    <div class="py-4" style="background-color: #081828;">
+        <section class="container">
+            <div class="row align-items-center" style="height: 550px">
+                <div class="col-md-6">
+                    <img src="./img/react.svg" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="display-4 mb-4 text-white">We have done <span class="text-warning">amaizing  projects</span></h2>
+                    <p class="lead text-white mb-4">Alongside the main project we also engage in personal projects and implement them i.e we have automated the academy dustbin.</p>
+                    <div class="text-center text-md-start">
+                        <a href="#" class="btn btn-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+              </svg> Read more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- posts -->
+    <div class="py-4" id="navbarBlog">
+        <main class="container">
+            <h2 class="text-center display-5 mt-5">Recent posts form our Blog</h2>
+            <p class="lead text-muted mb-5 pb-3 text-center">
+            </p>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card mb-3 shadow">
+
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-muted"></small></p>
+
+                            <img src="https://instagram.fnuu2-1.fna.fbcdn.net/v/t51.2885-15/311774405_2995241514104755_1862501712905800_n.jpg?stp=dst-jpg_e35&_nc_ht=instagram.fnuu2-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=l1ktRwdJIsUAX_AohWe&edm=ABJHkxYAAAAA&ccb=7-5&ig_cache_key=Mjk1MTE5NjE1NzQ4MTY0NDQ4OA%3D%3D.2-ccb7-5&oh=00_AT9vXOEh3rPvc0_4BgrCZvVWcNOU_h2eJth9QuaM8n7_uA&oe=63556CC5&_nc_sid=fa978c"
+                                height="200" width="380">
+                            <p>Using a PIR sensor to detect motion and displaying the distance of the object at the LCD using an arduino microcontroller.</p>
+
+                            <!-- <h5 class="card-title mb-4">The Machine learning team </h5> -->
+                            <a href="#" class="card-text fs-5 pb-2">
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-3 shadow">
+                        <!-- <img src="" class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-muted"></small></p>
+
+                            <img src="https://scontent.cdninstagram.com/v/t51.39111-15/309657200_657446522393069_5092403863494067373_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5a057b&_nc_ohc=-iG7vzpNWdYAX_Ivx1y&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=02_AVCv5cCfsxwH8V4FFUfk_n_2oMqeXdVqZv58yZUcp0ZuVw&oe=6352AF5D"
+                                width="370" height="200">
+                            <p>Guideline on how to create and deploy personal portfolios, through that one can become a fullstack web developer</p>
+                            <a href="#" class="card-text fs-5 pb-2">
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-3 shadow">
+
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-muted"></small></p>
+
+                            <img src="https://scontent.cdninstagram.com/v/t51.39111-15/311707837_1084808108846618_8963452217111429963_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5a057b&_nc_ohc=gUFQXwoVroYAX9soVDs&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=02_AVBkawrLdDH2BdXU8spGLXbpw2CBAO8AnVwoAyG8rXuISA&oe=63535095"
+                                alt="" height="200" width="370">
+                            <p>Machine learning team doing frequent tests on different objects so that the facial recognition system works faultlessly</p>
+
+                            <a href="#" class="card-text fs-5 pb-2">
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+
+    <!-- Frequently asked questions -->
+    <div class="py-4 bg-primary">
+        <section class="container">
+            <h2 class="text-center display-5 mt-5">Frequently asked questions</h2>
+            <p class="lead text-muted mb-5 pb-3 text-center">Ask us anything.</p>
+            <div class="accordion pb-4" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              Why choose us?
+            </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <ol>
+                                <li>
+                                    Gain hands on practical technical skills
+                                </li>
+
+                                <li>
+                                    Learn how to identify challenges in our society and come up with unique and effective solutions
+                                </li>
+
+                                <li>
+                                    Join a growing community of skilled individuals in hardware and software engineering fields
+                                </li>
+
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              What is Gearbox Academy?
+            </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            We are a training institution that focuses on imparting relevant hands on skills through <strong>Human Centered Design (HCD) </strong>and <strong>Industry 4.0 technologies,</strong> to promote digital literacy in engineering
+                            fields We train students to identify challenges in our society, then come up with effective and practical solutions. Our students therefore apply HCD in ideation to make solutions meet the users need, then implement them by
+                            applying industry 4 technologies such as Embedded systems or Digital design and Fabrication
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              Which courses do offer?
+            </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+
+                            <h6><strong>Embedded systems</strong></h6>
+                            Embedded Systems is a discipline that combines aspects of software and hardware computing i.e software embedded into computer hardware. This involves using micro-controllers and microprocessors such as AVR (Advanced Virtual RISC) controllers, ARM (Advanced
+                            RISC Machine) processors to build integrated solutions <br> <br>You shall therefore learn:
+                            <ul>
+                                <li>
+                                    How to write code for micro-controllers
+                                </li>
+
+                                <li>
+                                    PCB design using design softwares such as Eagle, KiCad or Proteus
+                                </li>
+
+                                <li>
+                                    PCB fabrication of Through-hole and Surface-mount components
+                                </li>
+                                <li>
+                                    Iot
+                                </li>
+
+                            </ul>
+
+                            <h6><strong>Digital Design & Fabrication</strong></h6>
+
+                            This is a course that takes you through the process of digital design on CAD softwares such as Inventor or Fusion, to fabrication on machines such as the Plasma cutter or CNC milling machines You shall learn design principles such as making assemblies
+                            to understanding material implications on machines when fabricating
+
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+    </div>
+    </section>
+    </div>
+
+    <!-- Contact -->
+    <div class="py-4" id="navbarContact">
+        <section class="container">
+            <h2 class="text-center display-5 mt-5">Contact</h2>
+            <p class="lead text-muted mb-5 pb-3 text-center">Feel free to get in touch We offer quality services and your feedback will be highly appreciated.</p>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="bg-primary rounded p-4">
+                                <svg class="text-primary" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                  <path
+                    d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                </svg>
+                                <h2 class="mt-5">Address</h2>
+                                <div>Nairobi</div>
+                                <div>Industrial area</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bg-primary rounded p-4">
+                                <svg class="text-primary" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                  <path
+                    d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                </svg>
+                                <h2 class="mt-5">Call Us</h2>
+                                <div>0706172999</div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bg-primary rounded p-4">
+                                <svg class="text-primary" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                  <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+                </svg>
+                                <h2 class="mt-5">Email Us</h2>
+                                <div>GearboxAcademy@gmail.com</div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bg-primary rounded p-4">
+                                <svg class="text-primary" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                  <path
+                    d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022l-.074.997zm2.004.45a7.003 7.003 0 0 0-.985-.299l.219-.976c.383.086.76.2 1.126.342l-.36.933zm1.37.71a7.01 7.01 0 0 0-.439-.27l.493-.87a8.025 8.025 0 0 1 .979.654l-.615.789a6.996 6.996 0 0 0-.418-.302zm1.834 1.79a6.99 6.99 0 0 0-.653-.796l.724-.69c.27.285.52.59.747.91l-.818.576zm.744 1.352a7.08 7.08 0 0 0-.214-.468l.893-.45a7.976 7.976 0 0 1 .45 1.088l-.95.313a7.023 7.023 0 0 0-.179-.483zm.53 2.507a6.991 6.991 0 0 0-.1-1.025l.985-.17c.067.386.106.778.116 1.17l-1 .025zm-.131 1.538c.033-.17.06-.339.081-.51l.993.123a7.957 7.957 0 0 1-.23 1.155l-.964-.267c.046-.165.086-.332.12-.501zm-.952 2.379c.184-.29.346-.594.486-.908l.914.405c-.16.36-.345.706-.555 1.038l-.845-.535zm-.964 1.205c.122-.122.239-.248.35-.378l.758.653a8.073 8.073 0 0 1-.401.432l-.707-.707z" />
+                  <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z" />
+                  <path
+                    d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                </svg>
+                                <h2 class="mt-5">Open Hours</h2>
+                                <div>Monday - Friday</div>
+                                <div>9:00AM - 05:00PM</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+
+
+
+
+
+
+
+                    <form action="https://formspree.io/f/mjvljrrk" method="POST" class="bg-primary p-4 rounded">
+                        <div class="mb-3">
+                            <label for="username">Fullname</label>
+                            <input type="text" class="form-control" id="username" name="fname">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="contactEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="contactEmail" name=" email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="conatctComment" class="form-label">Your comment</label>
+                            <textarea class="form-control" id="conatctComment" rows="6"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="margin-bottom: 28px;">Send</button>
+                    </form>
+
+
+                    <!-- <form action="/action_page.php">
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname"><br><br>
+                        <input type="submit" value="Submit">
+                    </form> -->
+
+
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <div class="py-4 text-white" style="background-color: #081828">
+        <footer class="container pt-5">
+            <div class="row py-4">
+                <div class="col-md-3">
+                    <h2 class="mb-4">GAE cohort 6</h2>
+
+
+
+
+
+                    <img src="https://unevoc.unesco.org/up/logo_gearbox.png" height="100" width="300 ">
+
+                </div>
+                <div class="col-md-3">
+                    <h3 class="border-start border-4 border-primary ps-3">Pages</h3>
+                    <ul class="list-unstyled mt-4">
+
+                        <li>
+                            <a href="#" class="text-decoration-none" style="color: #ddd">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#navbarFeatures" class="text-decoration-none" style="color: #ddd">Features</a>
+
+                            <li>
+
+                                <a href="#navbarBlog" class="text-decoration-none" style="color: #ddd">Blog</a>
+                            </li>
+
+                            <li>
+                                <a href="#navbarContact" class="text-decoration-none" style="color: #ddd">Contact</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="border-start border-4 border-primary ps-3">More</h3>
+                    <ul class="list-unstyled mt-4">
+
+                        <p>Click below!</p>
+
+                        <li>
+                            <a href="https://www.linkedin.com/company/gearbox-kenya/" class="text-decoration-none" style="color: #ddd">Linkedin</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- < -->
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="footer-heart">
+                    &copy;2022 All rights reserved. &trade;Reinhard & Jessicah
+                    <!-- <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">
+                        <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"></g-emoji> -->
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
